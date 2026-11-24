@@ -1,0 +1,1 @@
+namespace Mythrone.Core { public enum TeamId { Azure, Crimson } }
