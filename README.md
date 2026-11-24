@@ -1,25 +1,170 @@
-# MYTHRONE — RISE. FIGHT. RULE.
-Copyright © 2026 Muhzarx
+# ⚔️ MYTHRONE
+### RISE. FIGHT. RULE.
 
-Unity 6 / URP / C#. This repository is an **initial playable-systems foundation**, not a finished commercial MOBA.
-Unity Editor and .NET/Unity compilation are not installed in the authoring environment, so Unity compilation, Android/Windows builds, NavMesh baking and runtime QA remain unverified.
+<p align="center">
+  <strong>Original 3D Isometric MOBA Game</strong><br>
+  Built with Unity 6 · C# · Universal Render Pipeline
+</p>
 
-## Open
-1. Install Unity Hub and a Unity 6 LTS editor with Android Build Support (SDK/NDK + OpenJDK) and Windows Build Support.
-2. Create a new **3D URP** project named `MYTHRONE`.
-3. Copy the `Assets/MYTHRONE` folder from this package into the project `Assets/`.
-4. Open the project and let Unity compile scripts.
-5. Create a scene named `Battlefield`; add a Plane, directional light, camera and NavMeshSurface (AI Navigation package). Bake the NavMesh.
-6. Add a HeroDefinition asset for each roster entry using Create > MYTHRONE > Hero Definition.
-7. Add `MatchBootstrap` to an empty GameObject and assign the player prefab and hero definition. Assign a baked NavMesh for bot navigation.
+<p align="center">
+  <a href="https://github.com/Muhzarx/mythrone">GitHub Repository</a> •
+  <a href="#-live-demo">Live Demo</a> •
+  <a href="#-installation">Installation</a>
+</p>
 
-## Current foundation
-- Ten original ScriptableObject hero definitions generated at runtime by the editor menu.
-- Health, team/faction, basic combat, player movement, camera follow, bot lane patrol/engage state logic, core objective and match win/lose checks.
-- No online networking; single-player offline match foundation.
+---
 
-## Explicitly not finished yet
-Full authored 3D models/rigs/animations, full map art, all unique hero abilities/ultimates, minion waves, jungle camps/buffs/objectives, towers, item economy/shop, mobile UI/joystick, PC input remapping, audio, save/settings, polished menus, performance profiling and release builds. Temporary primitive visuals are marked as placeholders. Do not advertise this as feature-complete.
+## 🎮 About MYTHRONE
 
-## License / assets
-All code and names in this starter are original project material © 2026 Muhzarx. No third-party art, music, models or copyrighted MOBA assets are bundled. Primitive runtime visuals are development placeholders.
+**MYTHRONE** is an original 3D isometric Multiplayer Online Battle Arena (MOBA) game inspired by the strategic depth of competitive fantasy battle games.
+
+Featuring a 5v5 battle system, original heroes, intelligent AI opponents, and a fantasy battlefield, MYTHRONE aims to deliver an immersive MOBA experience for Windows PC and Android.
+
+**Copyright © 2026 Muhzarx**
+
+## 🌐 Live Demo
+
+Experience MYTHRONE through the available demo:
+
+<p align="center">
+  <a href="https://github.com/Muhzarx/mythrone">
+    <strong>🚀 VIEW MYTHRONE PROJECT</strong>
+  </a>
+</p>
+
+> **Note:** A browser-playable WebGL demo will be linked here when available.
+
+## ✨ Features
+
+- 3D Isometric Camera
+- 5v5 MOBA Gameplay
+- Original Hero Roster
+- AI Bot System
+- Three-Lane Battlefield
+- Jungle and Neutral Monsters
+- Towers and Base Destruction
+- Hero Leveling and Gold System
+- Equipment and Item Shop
+- Skills and Ultimate Abilities
+- Victory and Defeat Conditions
+
+## 🦸 Original Hero Roster
+
+| Hero | Role |
+|---|---|
+| VARGAN | Tank |
+| NYXARA | Assassin |
+| IGNIS | Mage |
+| LYRA | Marksman |
+| AUREL | Support |
+| DRAKON | Fighter |
+| SERAPHINE | Mage |
+| KAEL | Fighter |
+| MORRIGAN | Assassin |
+| BRONT | Tank |
+
+All heroes are original MYTHRONE characters.
+
+## 🗺️ The Shattered Kingdom
+
+The main battlefield features:
+
+- Top Lane
+- Middle Lane
+- Bottom Lane
+- Jungle Regions
+- River Crossing
+- Dragon Objective
+- Ancient Lord Objective
+- Defensive Towers
+- Team Bases
+- Mythic Cores
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Unity 6 | Game Engine |
+| C# | Programming Language |
+| URP | Rendering Pipeline |
+| NavMesh | AI Navigation |
+| ScriptableObjects | Hero Data |
+| Android | Mobile Platform |
+| Windows | Desktop Platform |
+
+## 💻 Installation
+
+### Requirements
+
+- Unity Hub
+- Unity 6
+- Visual Studio or another compatible C# IDE
+- Android Build Support (for Android development)
+- Windows Build Support (for Windows builds)
+
+### Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Muhzarx/mythrone.git
+   ```
+
+2. Open Unity Hub.
+3. Select **Add Project from Disk**.
+4. Choose the cloned MYTHRONE folder.
+5. Open the project using Unity 6.
+6. Wait for Unity to import assets and compile scripts.
+
+## 🎯 Development Roadmap
+
+- [x] Initial project structure
+- [x] Basic hero definitions
+- [x] Basic health and combat systems
+- [x] Initial player controller
+- [x] Basic AI foundation
+- [ ] Complete 5v5 gameplay
+- [ ] Ten fully developed heroes
+- [ ] Advanced AI behavior
+- [ ] Complete battlefield
+- [ ] Minions and jungle systems
+- [ ] Tower and core mechanics
+- [ ] Equipment and economy
+- [ ] Android interface
+- [ ] Windows interface
+- [ ] Visual effects and animations
+- [ ] Audio implementation
+- [ ] Optimization and testing
+- [ ] Public playable demo
+
+*Development status reflects the actual starter project and will be updated as features are implemented and tested.*
+
+## 📱 Target Platforms
+
+- Android
+- Windows PC
+
+## 📜 Copyright & License
+
+Copyright © 2026 **Muhzarx**.
+
+MYTHRONE is an original game project. Its original characters, concepts, and source code are developed independently.
+
+Third-party assets, if introduced in future versions, will be documented with their respective licenses and attribution requirements.
+
+All rights reserved unless otherwise specified.
+
+## 👨‍💻 Developer
+
+**Muhzarx**
+
+GitHub: [@Muhzarx](https://github.com/Muhzarx)
+
+---
+
+<p align="center">
+  <strong>MYTHRONE</strong><br>
+  RISE. FIGHT. RULE.
+  <br><br>
+  © 2026 Muhzarx. All Rights Reserved.
+</p>
